@@ -8,7 +8,12 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 google-api-python-client = "^2.119.0"
+google-auth-httplib2 = "^0.2.0"
+google-auth-oauthlib = "^1.2.0"
+click = "^8.1.7"
 
+[tool.poetry.scripts]
+drive-vault = 'drive_vault.cli:cli'
 
 [tool.poetry.group.test.dependencies]
 pytest = "^8.0.1"
