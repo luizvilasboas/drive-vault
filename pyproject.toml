@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "drive-vault"
+version = "0.1.0"
+description = "Create backups of files and directories and save in google drive"
+authors = ["Luiz Felipe de Castro Vilas Boas <luizfelipecastrovb@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
