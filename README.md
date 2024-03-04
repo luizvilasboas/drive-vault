@@ -1,7 +1,5 @@
 # drive-vault
 
-## Overview
-
 Make backups of important files in your system and sync them into your google drive.
 
 ## Contributing
