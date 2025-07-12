@@ -22,7 +22,7 @@ Follow these steps to set up the project:
 
 1. Clone the repository:
    ```
-   git clone https://gitlab.com/olooeez/drive-vault.git
+   git clone https://github.com/luizvilasboas/drive-vault.git
    cd drive-vault
    ```
 
@@ -47,8 +47,8 @@ We welcome contributions from the community! To contribute:
 
 ## License
 
-This project is licensed under the [MIT License](https://gitlab.com/olooeez/drive-vault/-/blob/main/LICENSE). Refer to the LICENSE file for more details.
+This project is licensed under the [MIT License](https://github.com/luizvilasboas/go-crud/blob/main/LICENSE). Refer to the LICENSE file for more details.
 
 ## Support
 
-If you encounter any issues or have questions, feel free to open an issue in the [issue tracker](https://gitlab.com/olooeez/drive-vault/-/issues).
+If you encounter any issues or have questions, feel free to open an issue in the [issue tracker](https://github.com/luizvilasboas/drive-vault/blob/main/LICENSE).
