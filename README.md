@@ -1,54 +1,62 @@
 # drive-vault
 
-Drive Vault is a Python application designed to help you create backups of important files on your system and securely sync them with Google Drive. Simplify your backup routine and keep your files safe in the cloud with ease.
+> A Python application to create backups of local files and securely sync them with Google Drive.
 
-## Features
+## About the Project
 
-- **Automated Backups**: Select and schedule files or folders to back up regularly.
-- **Google Drive Sync**: Seamlessly upload and sync backups with your Google Drive account.
-- **File Filtering**: Choose specific file types or exclude certain files from backups.
-- **Error Handling**: Robust error detection and logging for seamless operation.
+Drive Vault is a Python application designed to simplify your backup routine. It helps you create backups of important files or folders on your system and securely syncs them with your Google Drive account, keeping your files safe in the cloud with ease.
 
-## Prerequisites
+Key features include:
+*   **Automated Backups**: Select and schedule files or folders to back up regularly.
+*   **Google Drive Sync**: Seamlessly upload and sync backups with your Google Drive account.
+*   **File Filtering**: Choose specific file types or exclude certain files from backups.
+*   **Error Handling**: Robust error detection and logging for seamless operation.
 
-Before you begin, ensure you have the following installed:
+## Tech Stack
 
-- Python 3.8+
-- [Poetry](https://python-poetry.org/) for dependency management and packaging.
+*   [Python](https://www.python.org/)
+*   [Poetry](https://python-poetry.org/)
 
-## Installation
+## Usage
 
-Follow these steps to set up the project:
+Below are the instructions for you to set up and run the project locally.
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/luizvilasboas/drive-vault.git
-   cd drive-vault
-   ```
+### Prerequisites
 
-2. Install dependencies using Poetry:
-   ```
-   poetry install
-   ```
+You need to have the following software installed to run this project:
 
-3. Configure your Google Drive credentials by following the steps in [Google Drive API Documentation](https://developers.google.com/drive/api/v3/quickstart/python).
+*   [Python](https://www.python.org/downloads/) (3.8 or higher)
+*   [Poetry](https://python-poetry.org/docs/#installation)
+
+### Installation and Setup
+
+Follow the steps below:
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/luizvilasboas/drive-vault.git
+    ```
+
+2.  **Navigate to the project directory**
+    ```bash
+    cd drive-vault
+    ```
+
+3.  **Install dependencies**
+    ```bash
+    poetry install
+    ```
+
+### Configuration
+
+Before running the application, you must configure your Google Drive API credentials. Follow the official [Google Drive API Documentation](https://developers.google.com/drive/api/v3/quickstart/python) to create a `credentials.json` file and obtain the necessary tokens.
 
 ## Contributing
 
-We welcome contributions from the community! To contribute:
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-1. Fork the repository.
-2. Create a feature branch:
-   ```
-   git checkout -b feature-name
-   ```
-3. Make your changes and commit them with a meaningful message.
-4. Push to your fork and create a merge request.
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue in the [issue tracker](https://github.com/luizvilasboas/drive-vault/issues).
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/luizvilasboas/go-crud/blob/main/LICENSE). Refer to the LICENSE file for more details.
-
-## Support
-
-If you encounter any issues or have questions, feel free to open an issue in the [issue tracker](https://github.com/luizvilasboas/drive-vault/blob/main/LICENSE).
+This project is licensed under the MIT License. See the `LICENSE` file for details.
